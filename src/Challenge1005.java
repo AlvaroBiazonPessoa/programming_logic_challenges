@@ -9,7 +9,7 @@ public class Challenge1005 {
         double weightOfGradeA = 3.5;
         double weightOfGradeB = 7.5;
         double average = ((gradeA * weightOfGradeA) + (gradeB * weightOfGradeB)) / (weightOfGradeA + weightOfGradeB);
-        System.out.printf("MEDIA = %.5f\n", average);
+        System.out.printf("Average = %.5f\n", average);
         scanner.close();
     }
 
