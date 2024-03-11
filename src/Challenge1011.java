@@ -8,6 +8,7 @@ public class Challenge1011 {
         double ray = scanner.nextDouble();
         double sphereVolume = 4.0/3 * pi * Math.pow(ray, 3);
         System.out.printf("VOLUME = %.3f\n", sphereVolume);
+        scanner.close();
     }
 
 }

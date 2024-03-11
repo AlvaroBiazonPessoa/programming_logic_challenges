@@ -12,6 +12,7 @@ public class Challenge1010 {
         double secondPieceValue = scanner.nextDouble();
         double amountToPay = firstPieceQuantity * firstPieceValue + secondPieceQuantity * secondPieceValue;
         System.out.printf("Amount to pay: $ %.2f\n", amountToPay);
+        scanner.close();
     }
 
 }
