@@ -10,6 +10,7 @@ public class Challenge1015 {
         double y2 = scanner.nextDouble();
         double distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
         System.out.printf("%.4f\n", distance);
+        scanner.close();
     }
 
 }
