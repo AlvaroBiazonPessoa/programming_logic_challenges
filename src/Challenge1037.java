@@ -20,6 +20,7 @@ public class Challenge1037 {
         } else {
             System.out.println("Out of range");
         }
+        scanner.close();
     }
 
 }
